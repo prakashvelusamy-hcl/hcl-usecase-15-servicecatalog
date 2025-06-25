@@ -31,6 +31,7 @@ resource "aws_iam_role_policy" "sc_launch_policy" {
           "ec2:*InternetGateway",
           "ec2:*RouteTable",
           "ec2:CreateRoute",
+          "ec2:DeleteRoute",
           "ec2:AssociateRouteTable",
           "ec2:*SecurityGroup",
           "ec2:AuthorizeSecurityGroupIngress",
